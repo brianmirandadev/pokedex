@@ -1,0 +1,56 @@
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  color: #fcb07e;
+  font-size: 162pt;
+  text-shadow: 1px 1px 0 #d5956a, 2px 2px 0 #d5956a, 3px 3px 0 #d5956a, 4px 4px 0 #d5956a, 5px 5px 0 #d5956a, 6px 6px 0 #d5956a, 7px 7px 0 #d5956a, 8px 8px 0 #d5956a, 9px 9px 0 #d5956a, 10px 10px 0 #d5956a, 38px 38px 15px rgba($color: #000000, $alpha: 0.4);
+}
+
+p {
+  color: #3581b8;
+  font-size: 41.5pt;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+p span {
+  color: #fcb07e;
+  font-weight: 900;
+}
+
+#start-button {
+  color: #fcb07e;
+  background-color: #0d1423;
+  width: 254.4px;
+  height: 82px;
+  border: none;
+  font-size: 41.5pt;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+}
+#start-button span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 82px;
+  transition: 0.5s;
+}
+#start-button span:nth-child(2) {
+  color: #0d1423;
+  background-color: #fcb07e;
+}
+
+#start-button:hover span:nth-child(1) {
+  transform: translateY(-100%);
+}
+#start-button:hover span:nth-child(2) {
+  transform: translateY(-100%);
+}
